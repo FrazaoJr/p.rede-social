@@ -15,7 +15,7 @@ html, body {
 body {
     background: url('../imagens/fundo-escuro.jpg') no-repeat top center;
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 
 main {
@@ -27,19 +27,22 @@ section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-100%, -50%);
     
-    height: 627px;
-    width: 311px;
-    background: url('../imagens/frame-s24ultra.png') no-repeat;
+    height: 600px;
+    width: 155px;
+    background: url('../imagens/frame-s24ultra2.png') no-repeat;
 }
 
 iframe#tela {
     position: relative;
-    top: 19px;
-    left: 168px;
-    width: 267px;
-    height: 557px;
+    top: 6px;
+    left: 8px;
+    width: 260px;
+    height: 558px;
+    border-color: rgba(34, 32, 32, 0.658);
+    box-shadow: 5px 5px 10px rgba(34, 32, 32, 0.658);
+    box-sizing: border-box;
 }
 
 section#redes-sociais {
